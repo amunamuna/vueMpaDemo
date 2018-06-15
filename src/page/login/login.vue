@@ -1,5 +1,5 @@
 <template>
-    <div class="login-layout">
+    <div class="login-layout light-login">
       <div class="main-container">
         <div class="main-content">
           <div class="row">
@@ -9,7 +9,7 @@
                   <h1>
                     <i class="ace-icon fa fa-leaf green"></i>
                     <span class="red">Ace</span>
-                    <span class="white" id="id-text2">Application</span>
+                    <span class="grey" id="id-text2">Application</span>
                   </h1>
                   <h4 class="blue" id="id-company-text">&copy; Company Name</h4>
                 </div>
@@ -218,20 +218,6 @@
                   </div><!-- /.signup-box -->
                 </div><!-- /.position-relative -->
 
-                <div class="navbar-fixed-top align-right">
-                  <br />
-                  &nbsp;
-                  <a id="btn-login-dark" href="#">Dark</a>
-                  &nbsp;
-                  <span class="blue">/</span>
-                  &nbsp;
-                  <a id="btn-login-blur" href="#">Blur</a>
-                  &nbsp;
-                  <span class="blue">/</span>
-                  &nbsp;
-                  <a id="btn-login-light" href="#">Light</a>
-                  &nbsp; &nbsp; &nbsp;
-                </div>
               </div>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -241,12 +227,13 @@
     </div>
 </template>
 
-
-<!-- inline scripts related to this page -->
 <script type="text/javascript">
   if('ontouchstart' in document.documentElement)
     document.write(
       "<script src='../../static/ace_admin_v1.4.0/components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"+"<"+"/script>");
+</script>
+<!-- inline scripts related to this page -->
+<script type="text/javascript">
 
   jQuery(function($) {
     $(document).on('click', '.toolbar a[data-target]', function(e) {
@@ -258,3 +245,14 @@
   });
 
 </script>
+
+<style >
+  @import '../../static/ace_admin_v1.4.0/assets/css/bootstrap.css';
+  @import '../../static/ace_admin_v1.4.0/components/font-awesome/css/font-awesome.css';
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace-fonts.css';
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace.css';
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace-part2.css';
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace-rtl.css';
+
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace-ie.css';
+</style>
