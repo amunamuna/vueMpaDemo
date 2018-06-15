@@ -13,5 +13,6 @@ const routers = [
   {
     path: '/login',
     component: login
-  }];
+  }
+];
 export default routers
