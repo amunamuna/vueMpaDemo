@@ -399,10 +399,17 @@
 <script src="../../static/ace_admin_v1.4.0/docs/assets/js/language/css.js"></script>
 <script src="../../static/ace_admin_v1.4.0/docs/assets/js/language/javascript.js"></script>
 
+<style >
+  @import '../../static/ace_admin_v1.4.0/assets/css/bootstrap.css';
+  @import '../../static/ace_admin_v1.4.0/components/font-awesome/css/font-awesome.css';
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace-fonts.css';
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace.css';
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace-part2.css';
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace-rtl.css';
+
+  @import '../../static/ace_admin_v1.4.0/assets/css/ace-ie.css';
+</style>
 <script>
   export default{
-    data () {
-      return {msg: '这个是Home模板页'}
-    }
   }
 </script>
