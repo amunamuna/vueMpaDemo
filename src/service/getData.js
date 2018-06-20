@@ -1,6 +1,9 @@
 import fetch from '../config/fetch'
 import {getStore} from '../config/mUtils'
 
+
+export const demo = () => fetch('http://localhost:8888/muna-back/', {});
+
 /**
  * 获取首页默认地址
  */
