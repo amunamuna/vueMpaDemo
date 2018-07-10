@@ -226,33 +226,13 @@
 
     </div>
 </template>
+<script>
 
-<script type="text/javascript">
-  if('ontouchstart' in document.documentElement)
-    document.write(
-      "<script src='../../static/ace_admin_v1.4.0/components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"+"<"+"/script>");
+  export default{
+    data(){
+      return {
+        msg: ''
+      }
+    }
+  }
 </script>
-<!-- inline scripts related to this page -->
-<script type="text/javascript">
-
-  jQuery(function($) {
-    $(document).on('click', '.toolbar a[data-target]', function(e) {
-      e.preventDefault();
-      var target = $(this).data('target');
-      $('.widget-box.visible').removeClass('visible');//hide others
-      $(target).addClass('visible');//show target
-    });
-  });
-
-</script>
-
-<style >
-  @import '../../static/ace_admin_v1.4.0/assets/css/bootstrap.css';
-  @import '../../static/ace_admin_v1.4.0/components/font-awesome/css/font-awesome.css';
-  @import '../../static/ace_admin_v1.4.0/assets/css/ace-fonts.css';
-  @import '../../static/ace_admin_v1.4.0/assets/css/ace.css';
-  @import '../../static/ace_admin_v1.4.0/assets/css/ace-part2.css';
-  @import '../../static/ace_admin_v1.4.0/assets/css/ace-rtl.css';
-
-  @import '../../static/ace_admin_v1.4.0/assets/css/ace-ie.css';
-</style>

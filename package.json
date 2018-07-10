@@ -5,24 +5,20 @@
   "author": "nannan.zhang",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
-    "unit": "jest --config test/unit/jest.conf.js --coverage",
-    "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
+    "dev": "node build/dev-server.js",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "jquery": "^2.2.3",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1",
-    "jquery": "^2.2.3"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-jest": "^21.0.2",
-    "babel-loader": "^7.1.1",
+    "babel-loader": "^7.1.5",
     "babel-plugin-dynamic-import-node": "^1.2.0",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
@@ -36,6 +32,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
+    "eventsource-polyfill": "^0.9.6",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
@@ -57,12 +54,12 @@
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
     "vue-jest": "^1.0.2",
-    "vue-loader": "^13.7.1",
+    "vue-loader": "^13.7.2",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^2.11.2",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
