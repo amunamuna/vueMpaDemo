@@ -4,8 +4,11 @@
 访问:http://localhost:8889/login.html
 
 App.vue 页面入口文件
+
 main.js 程序入口文件，加载各种公共组件
+
 router.js 进行路由配置
+
 getData.js 获取数据的统一调配文件，对接口进行统一管理
 
 # webtest
