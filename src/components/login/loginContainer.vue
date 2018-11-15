@@ -85,7 +85,7 @@
 
                   <div class="toolbar clearfix">
                     <div>
-                      <a :href="regPage" class="forgot-password-link">
+                      <a :href="forgetPassword" class="forgot-password-link">
                         <i class="ace-icon fa fa-arrow-left"></i>
                         忘记密码
                       </a>
